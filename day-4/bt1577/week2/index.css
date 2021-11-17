@@ -5,7 +5,7 @@ h2{
     text-decoration: underline;
 }
 #navigation{
-    text-indent: 25%;
+    position: relative;
     text-align: center;
 }
 #tablesectionOne{
