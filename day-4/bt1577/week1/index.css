@@ -5,7 +5,8 @@ h2{
     text-decoration: underline;
 }
 #navigation{
-    text-indent: 25%;
+    position: relative;
+    padding-left: 25%;
     text-align: center;
 }
 #tablesectionOne{
@@ -36,18 +37,20 @@ h2{
     position: absolute;
     top: 7em;
 }
-.CAPTION{
+caption{
     background-color: rgb(255,185,115);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
 }
 th{
     border-style: solid;
-    border-color: #d0d0d0;
+    border-width: thin;
+    border-color: #D0D0D0;
     empty-cells: show;
 }
 td{
     border-style: solid;
-    border-color: #d0d0d0;
+    border-width: thin;
+    border-color: #D0D0D0;
     empty-cells: show;
 }
