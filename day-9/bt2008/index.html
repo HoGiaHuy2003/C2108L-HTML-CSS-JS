@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" cellpadding="5">
+        <caption>Management Products</caption>
+        <tr>
+            <th>STT</th>
+            <th>Ten</th>
+            <th>Tuoi</th>
+            <th>dia chi</th>
+            <th>email</th>
+        </tr>
+
+    <script type="text/javascript">
+        var index = 0
+        var studentlist = [
+        {
+            "fullname": "Tran Van A",
+            "age": 1,
+            "address": "Ha Noi",
+            "email": "a@gmail.com"
+        },
+        {
+            "fullname": "Tran Van B",
+            "age": 1,
+            "address": "Ha Noi",
+            "email": "a@gmail.com"
+        },
+        {
+            "fullname": "Tran Van C",
+            "age": 1,
+            "address": "Ha Noi",
+            "email": "a@gmail.com"
+        }
+    ]
+    
+        for (std of studentlist) {
+            document.write(`<tr>
+                <td>${++index})</td>
+                <td>${std.fullname}</td>
+                <td>${std.age}</td>
+                <td>${std.address}</td>
+                <td>${std.email}
+            </tr>`)
+        }
+    </script>
+    </table>
+</body>
+</html>

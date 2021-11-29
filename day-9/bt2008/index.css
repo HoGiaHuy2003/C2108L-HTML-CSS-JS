@@ -1,0 +1,9 @@
+caption{
+    text-align: left;
+    background-color: cornflowerblue;
+    color: white;
+    text-transform: capitalize;
+}
+th{
+    text-transform: capitalize;
+}
